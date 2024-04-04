@@ -2,9 +2,10 @@
   "name": "learnstorybook-design-system-template",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
-    "index.js",
+    "dist/**/*",
     "README.md"
   ],
   "license": "MIT",
@@ -75,5 +76,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
-  }
+  },
+  "description": "First Storybook design system",
+  "repository": "git@bitbucket.org:infuseniccisandbox/learnstorybook-design-system.git",
+  "author": "Nichole Williams <nicci@nicciwill.com>"
 }
