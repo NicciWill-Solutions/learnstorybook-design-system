@@ -2,10 +2,9 @@
   "name": "learnstorybook-design-system-template",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "index.js",
   "files": [
-    "dist/**/*",
+    "index.js",
     "README.md"
   ],
   "license": "MIT",
